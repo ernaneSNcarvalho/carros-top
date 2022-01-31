@@ -1,12 +1,14 @@
 import React from 'react';
 import './assets/styles/custom.scss';
 import './App.css';
+import Navbar from './components/Navbar';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1 className="bg-success text-warning">CARROS TOP</h1>
-    </div>
+    <>
+      <Navbar />
+      
+    </>
   );
 }
 

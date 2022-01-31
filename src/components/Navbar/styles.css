@@ -1,0 +1,42 @@
+h1, h2, h3, h4, h5, h6, p, a {
+    text-decoration: none;
+}
+
+.navbar-logo, .navbar-logo:hover {
+    display: flex;
+    justify-content: start;
+    align-items: right;
+    padding: 22px 0 20px 150px;
+    font-size: 24px;
+    color: #00285F;
+    padding-right: 1200px;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+.main-menu {
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-link-home {
+    padding-right: 48px;
+}
+
+.main-menu a.active {
+    font-weight: bold;
+}
+
+.main-nav {
+    height: 70px;
+    padding-left: 150px;
+}
+
+
+
+
+
