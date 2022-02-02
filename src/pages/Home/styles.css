@@ -1,0 +1,32 @@
+.home-card {
+    background-color: #00285F;
+    color: white;
+}
+
+.home-container {
+    padding: 20px;
+    font-size: 36px;
+    background-color: white;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.home-container p {
+    font-size: 18px;
+}
+
+.card-nav {
+    background-color: #EDEDED;
+}
+
+.btn-main {
+    background-color: #00285F;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 30px;
+
+}

@@ -5,11 +5,12 @@ h1, h2, h3, h4, h5, h6, p, a {
 .navbar-logo, .navbar-logo:hover {
     display: flex;
     justify-content: start;
+    flex-wrap: nowrap;
     align-items: right;
     padding: 22px 0 20px 150px;
     font-size: 24px;
     color: #00285F;
-    padding-right: 1200px;
+    
 }
 
 a, a:hover {
@@ -32,9 +33,36 @@ a, a:hover {
 }
 
 .main-nav {
-    height: 70px;
+    min-height: 70px;
     padding-left: 150px;
     display: flex;
+}
+
+.navbar-link-catalogo {
+    padding-right: 150px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-logo, ul, li {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-nav button {
+    background-color: #00285F;
+    
+}
+
+@media (min-width: 576px) {
+    .navbar-logo, .navbar-logo:hover {
+        margin-left: -280px;
+        
+    }
 }
 
 
