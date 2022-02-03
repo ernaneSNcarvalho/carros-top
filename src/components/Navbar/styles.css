@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     font-size: 24px;
     color: #00285F;
     
+    
 }
 
 a, a:hover {
@@ -61,7 +62,23 @@ a, a:hover {
 @media (min-width: 576px) {
     .navbar-logo, .navbar-logo:hover {
         margin-left: -280px;
-        
+    }
+}
+
+@media (min-width: 768px) {
+    .active {
+        padding-left: 400px;
+    }
+
+    .navbar-logo{
+        display: block;
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-link-home {
+        margin-left: 200px;
     }
 }
 

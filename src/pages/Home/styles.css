@@ -1,14 +1,18 @@
 .home-card {
     background-color: #00285F;
     color: white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
 }
 
 .home-container {
+    display: block;
     padding: 20px;
     font-size: 36px;
     background-color: white;
-    border: 1px solid red;
+   
     text-align: center;
+    border-radius: 5px;
 }
 
 .home-container p {
@@ -17,16 +21,62 @@
 
 .card-nav {
     background-color: #EDEDED;
+    Width: 536px;
+    Height: 123px;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 10px;
 }
 
-.btn-main {
-    background-color: #00285F;
-    color: white;
-    border-radius: 5px;
-    font-size: 14px;
+.btn-text {
+    color: #585858;
     display: flex;
-    justify-content: center;
-    margin-left: 80px;
-    margin-top: 30px;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+    margin-left: 20px;
+}
 
+.text-text {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.home-card svg {
+    width: 100%;
+}
+
+.card-btn {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .card-nav {
+        width: 730px;
+        
+    }
+
+    .card-btn {
+        margin-left: 85px;
+    }
+}
+
+@media (min-width: 992px) {
+    .home-image-container {
+        text-align: center;
+        align-items: center;
+        width: 952px;
+    }
+    
+    .home-container {
+        width: 952px;
+        margin: 20px;
+    }
+
+    .card-nav {
+        width: 910px;
+    }
 }
