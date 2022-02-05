@@ -1,0 +1,26 @@
+.btn-card {
+    background-color: #00285F;
+    color: #fff;
+    width: 266px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.img-card {
+    width: 100%;
+    padding: 43px;
+    padding-top: 14px;
+    padding-bottom: 20px;
+}
+
+.text-card {
+    text-align: left;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.text-card-title {
+    padding-bottom: 14px;
+}

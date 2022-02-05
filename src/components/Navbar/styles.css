@@ -2,13 +2,10 @@ h1, h2, h3, h4, h5, h6, p, a {
     text-decoration: none;
 }
 
-.navbar-logo, .navbar-logo:hover {
-    display: flex;
-    justify-content: start;
-    flex-wrap: nowrap;
-    align-items: right;
-    padding: 22px 0 20px 150px;
-    font-size: 24px;
+.navbar-logo {  
+    
+    padding-left: 60px;
+    font-size: 2px;
     color: #00285F;
     
     
@@ -35,8 +32,9 @@ a, a:hover {
 
 .main-nav {
     min-height: 70px;
-    padding-left: 150px;
+    text-align: left;
     display: flex;
+    flex-direction: column;
 }
 
 .navbar-link-catalogo {
@@ -59,9 +57,9 @@ a, a:hover {
     
 }
 
-@media (min-width: 576px) {
-    .navbar-logo, .navbar-logo:hover {
-        margin-left: -280px;
+@media (max-width: 576px) {
+    .main-nav {
+        width: 576px;
     }
 }
 
@@ -79,6 +77,12 @@ a, a:hover {
 @media (min-width: 992px) {
     .navbar-link-home {
         margin-left: 200px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-nav {
+        width: 1280px;
     }
 }
 

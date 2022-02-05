@@ -1,12 +1,12 @@
 import React from 'react';
 import './assets/styles/custom.scss';
 import './App.css';
-import Home from './pages/Home';
+import RoutesPath from './Routes';
 
 const App = () => {
   return (
     <>
-      <Home />
+      <RoutesPath />
       
     </>
   );
