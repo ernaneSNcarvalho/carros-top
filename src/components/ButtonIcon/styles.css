@@ -1,32 +1,39 @@
 .button-icon {
-    background-color: #EDEDED;
-    width: 1160px;
-    height: 123px;
-    border-radius: 10px;
-    align-items: center;
-    display: flex;
-    
+  background-color: #ededed;
+  width: 1160px;
+  height: 123px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
 }
 
 .input-text {
-    color: #A7A7A7;
-    font-size: 14px;
-    text-align: left;
-    
+  color: #a7a7a7;
+  font-size: 14px;
+  text-align: left;
 }
 
 input {
-    width: 584px;
-    height: 40px;
-    margin-left: 160px;
-    border: none;
+  width: 584px;
+  height: 40px;
+  margin-left: 160px;
+  border: none;
 }
 
 .btn-btn {
-    background-color: #00285F;
-    width: 174px;
-    height: 40px;
-    color: #fff;
-    justify-content: space-between;
-    margin-left: 5px;
+  background-color: #00285f;
+  width: 174px;
+  height: 40px;
+  color: #fff;
+  justify-content: space-between;
+  margin-left: 5px;
 }
+
+@media (min-width: 992px) {
+  .button-icon {
+    width: 960px;
+  }
+}
+
+
+ 
